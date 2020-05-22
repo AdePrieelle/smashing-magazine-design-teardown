@@ -6,6 +6,39 @@ html {
   box-sizing: inherit;
 }
 
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: rgb(155, 155, 155);
+	height: 100px;
+}
+
+.navbar > * {
+	border-radius: 4px;
+}
+
+.nav-logo {
+	padding: 20px 60px;
+	background-color: rgb(182, 182, 182);
+}
+
+.nav-link {
+	padding: 10px 20px;
+	background-color: rgb(182, 182, 182);;
+}
+
+.nav-button {
+	padding: 15px 20px;
+	background-color: rgb(116, 115, 115);
+}
+
+.nav-search {
+	padding: 20px 100px;
+	background-color: rgb(212, 212, 212);
+}
+
+
 
 
 /* Declaration order 
